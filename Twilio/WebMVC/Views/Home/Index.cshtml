@@ -25,6 +25,10 @@
         .btn-info {
             font-size: 1.3rem;
         }
+
+        .noSubrayado {
+            text-decoration: none !important;
+        }
     </style>
 </head>
 <body ng-app="accountSecurityQuickstart">
@@ -45,12 +49,12 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-6 col-sm-6 col-md-6">
-                            <a href="verification/">
+                            <a href="verification/" class="noSubrayado">
                                 <input type="submit" value="Phone Verification" class="btn btn-info btn-block">
                             </a>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-6">
-                            <a href="register/">
+                            <a href="register/" class="noSubrayado">
                                 <input type="submit" value="Two-factor Auth" class="btn btn-info btn-block">
                             </a>
                         </div>
